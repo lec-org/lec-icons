@@ -55,9 +55,9 @@ packages/icons/
 4. 检查图标预览，再运行类型检查与测试。
 
 ```sh
-pnpm --filter @lec-org/icons generate
-pnpm --filter @lec-org/icons typecheck
-pnpm --filter @lec-org/icons test
+pnpm --filter @lec-space/icons generate
+pnpm --filter @lec-space/icons typecheck
+pnpm --filter @lec-space/icons test
 pnpm icons:build
 ```
 

@@ -16,12 +16,12 @@ const snippet = computed(() => {
   if (!icon) return '';
   if (mode.value === 'asset' && icon.file) {
     const variable = icon.name + 'Url';
-    return "import " + variable + " from '@lec-org/icons/assets/" + icon.file + "';\n\n"
+    return "import " + variable + " from '@lec-space/icons/assets/" + icon.file + "';\n\n"
       + '<img src={' + variable + '} alt="' + icon.label + '" width={24} height={24} />';
   }
   const path = mode.value === 'category'
-    ? '@lec-org/icons/' + (icon.kind === 'ui' ? 'ui/' : '') + icon.folder
-    : '@lec-org/icons';
+    ? '@lec-space/icons/' + (icon.kind === 'ui' ? 'ui/' : '') + icon.folder
+    : '@lec-space/icons';
   const label = icon.kind === 'ui' ? 'aria-label' : 'title';
   return 'import { ' + icon.component + " } from '" + path + "';\n\n"
     + '<' + icon.component + ' size={24} ' + label + '="' + icon.label + '" />';

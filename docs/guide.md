@@ -1,6 +1,14 @@
 # 快速开始
 
-`@lec-org/icons` 是 LEC 的私有 workspace 包。React 项目可以使用组件，Vue 或纯图片场景可以引入品牌原始素材。
+## 从 npm 安装
+
+```sh
+npm install @lec-space/icons@1.0.0
+```
+
+npm 发布包提供编译后的 ESM、类型声明、原始素材与许可证；消费项目无需编译本库的 TSX 源码。
+
+`@lec-space/icons` 是 LEC 的私有 workspace 包。React 项目可以使用组件，Vue 或纯图片场景可以引入品牌原始素材。
 
 ## 在 workspace 中接入
 
@@ -9,7 +17,7 @@
 ```json
 {
   "dependencies": {
-    "@lec-org/icons": "workspace:*"
+    "@lec-space/icons": "workspace:*"
   }
 }
 ```
@@ -17,7 +25,7 @@
 ## 从统一入口引入
 
 ```tsx
-import { PythonIcon, ReactIcon, Search, Settings } from '@lec-org/icons';
+import { PythonIcon, ReactIcon, Search, Settings } from '@lec-space/icons';
 
 export function Toolbar() {
   return (
@@ -39,20 +47,20 @@ export function Toolbar() {
 原始素材和 React 组件使用相同的分类目录。
 
 ```tsx
-import { PythonIcon, CppIcon } from '@lec-org/icons/languages';
-import { ReactIcon, NestJsIcon } from '@lec-org/icons/frameworks';
-import { PostgreSqlIcon } from '@lec-org/icons/databases';
-import { GitHubIcon, DockerIcon } from '@lec-org/icons/tools';
+import { PythonIcon, CppIcon } from '@lec-space/icons/languages';
+import { ReactIcon, NestJsIcon } from '@lec-space/icons/frameworks';
+import { PostgreSqlIcon } from '@lec-space/icons/databases';
+import { GitHubIcon, DockerIcon } from '@lec-space/icons/tools';
 
-import { Search, Copy } from '@lec-org/icons/ui/actions';
-import { ArrowLeft, House } from '@lec-org/icons/ui/navigation';
-import { CircleCheck } from '@lec-org/icons/ui/status';
+import { Search, Copy } from '@lec-space/icons/ui/actions';
+import { ArrowLeft, House } from '@lec-space/icons/ui/navigation';
+import { CircleCheck } from '@lec-space/icons/ui/status';
 ```
 
 也可以直接引入单个品牌组件。统一入口和单图标入口均支持构建工具按需裁剪。
 
 ```tsx
-import { PythonIcon } from '@lec-org/icons/icons/python';
+import { PythonIcon } from '@lec-space/icons/icons/python';
 ```
 
 ## 使用原始 SVG 或 PNG
@@ -60,8 +68,8 @@ import { PythonIcon } from '@lec-org/icons/icons/python';
 在 Vite 项目中，可以直接把品牌素材作为图片 URL 引入。
 
 ```tsx
-import pythonUrl from '@lec-org/icons/assets/languages/python.svg';
-import cangjieUrl from '@lec-org/icons/assets/languages/cangjie.png';
+import pythonUrl from '@lec-space/icons/assets/languages/python.svg';
+import cangjieUrl from '@lec-space/icons/assets/languages/cangjie.png';
 
 <img src={pythonUrl} width={24} height={24} alt="Python" />
 <img src={cangjieUrl} width={24} height={24} alt="仓颉" />
@@ -71,7 +79,7 @@ import cangjieUrl from '@lec-org/icons/assets/languages/cangjie.png';
 
 ```vue
 <script setup lang="ts">
-import pythonUrl from '@lec-org/icons/assets/languages/python.svg';
+import pythonUrl from '@lec-space/icons/assets/languages/python.svg';
 </script>
 
 <template>
@@ -79,7 +87,7 @@ import pythonUrl from '@lec-org/icons/assets/languages/python.svg';
 </template>
 ```
 
-仓颉来源提供的是 PNG，包内保留原始格式。已有的 `@lec-org/icons/assets/python.svg` 等短路径也继续可用。
+仓颉来源提供的是 PNG，包内保留原始格式。已有的 `@lec-space/icons/assets/python.svg` 等短路径也继续可用。
 
 ## 尺寸、颜色与名称
 
@@ -94,7 +102,7 @@ import pythonUrl from '@lec-org/icons/assets/languages/python.svg';
 | 图标按钮 | 把操作名称放在按钮的 `aria-label` 上 |
 
 ```tsx
-import { PythonIcon, Search } from '@lec-org/icons';
+import { PythonIcon, Search } from '@lec-space/icons';
 
 <PythonIcon size={24} title="Python" />
 <Search size={20} color="currentColor" strokeWidth={1.75} />
@@ -107,8 +115,8 @@ import { PythonIcon, Search } from '@lec-org/icons';
 数量、名称和分类都来自包内清单。
 
 ```ts
-import { iconCatalog, iconCategories } from '@lec-org/icons/catalog';
-import { uiCatalog, uiIconNames } from '@lec-org/icons/ui';
+import { iconCatalog, iconCategories } from '@lec-space/icons/catalog';
+import { uiCatalog, uiIconNames } from '@lec-space/icons/ui';
 
 const databases = iconCatalog.filter((icon) => icon.category === 'database');
 const actions = uiCatalog.filter((icon) => icon.category === 'actions');

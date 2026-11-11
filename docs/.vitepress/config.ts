@@ -4,7 +4,8 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'LEC Icons',
   description: '浏览 LEC 图标库，按分类查找并复制 React 或 SVG 引入代码。',
-  cleanUrls: true,
+  base: process.env.DOCS_BASE_PATH || '/',
+  cleanUrls: false,
   themeConfig: {
     siteTitle: 'LEC Icons',
     nav: [

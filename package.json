@@ -1,7 +1,6 @@
 {
-  "name": "@lec-org/icons",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@lec-space/icons",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "sideEffects": false,
@@ -126,7 +125,6 @@
   },
   "files": [
     "dist",
-    "src",
     "assets",
     "licenses",
     "LICENSE",
@@ -139,7 +137,8 @@
     "generate": "bun scripts/generate.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc -p tsconfig.build.json",
-    "test": "bun test ./test"
+    "test": "bun test ./test",
+    "prepack": "pnpm build"
   },
   "peerDependencies": {
     "react": ">=18"
@@ -154,5 +153,387 @@
     "typescript": "5.9.3",
     "@types/react-dom": "19.3.0",
     "react-dom": "19.3.1"
-  }
+  },
+  "packageManager": "pnpm@10.34.4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lec-org/lec-icons.git"
+  },
+  "homepage": "https://lec-org.github.io/lec-icons/",
+  "bugs": {
+    "url": "https://github.com/lec-org/lec-icons/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js",
+        "default": "./dist/index.js"
+      },
+      "./catalog": {
+        "types": "./dist/catalog.d.ts",
+        "import": "./dist/catalog.js",
+        "default": "./dist/catalog.js"
+      },
+      "./ui": {
+        "types": "./dist/ui/index.d.ts",
+        "import": "./dist/ui/index.js",
+        "default": "./dist/ui/index.js"
+      },
+      "./ui/*": {
+        "types": "./dist/ui/*/index.d.ts",
+        "import": "./dist/ui/*/index.js",
+        "default": "./dist/ui/*/index.js"
+      },
+      "./assets/*": "./assets/*",
+      "./languages": {
+        "types": "./dist/brand/languages/index.d.ts",
+        "import": "./dist/brand/languages/index.js",
+        "default": "./dist/brand/languages/index.js"
+      },
+      "./frameworks": {
+        "types": "./dist/brand/frameworks/index.d.ts",
+        "import": "./dist/brand/frameworks/index.js",
+        "default": "./dist/brand/frameworks/index.js"
+      },
+      "./databases": {
+        "types": "./dist/brand/databases/index.d.ts",
+        "import": "./dist/brand/databases/index.js",
+        "default": "./dist/brand/databases/index.js"
+      },
+      "./tools": {
+        "types": "./dist/brand/tools/index.d.ts",
+        "import": "./dist/brand/tools/index.js",
+        "default": "./dist/brand/tools/index.js"
+      },
+      "./icons/cpp": {
+        "types": "./dist/brand/languages/cpp.d.ts",
+        "import": "./dist/brand/languages/cpp.js",
+        "default": "./dist/brand/languages/cpp.js"
+      },
+      "./assets/cpp.svg": "./assets/languages/cpp.svg",
+      "./icons/python": {
+        "types": "./dist/brand/languages/python.d.ts",
+        "import": "./dist/brand/languages/python.js",
+        "default": "./dist/brand/languages/python.js"
+      },
+      "./assets/python.svg": "./assets/languages/python.svg",
+      "./icons/c": {
+        "types": "./dist/brand/languages/c.d.ts",
+        "import": "./dist/brand/languages/c.js",
+        "default": "./dist/brand/languages/c.js"
+      },
+      "./assets/c.svg": "./assets/languages/c.svg",
+      "./icons/java": {
+        "types": "./dist/brand/languages/java.d.ts",
+        "import": "./dist/brand/languages/java.js",
+        "default": "./dist/brand/languages/java.js"
+      },
+      "./assets/java.svg": "./assets/languages/java.svg",
+      "./icons/javascript": {
+        "types": "./dist/brand/languages/javascript.d.ts",
+        "import": "./dist/brand/languages/javascript.js",
+        "default": "./dist/brand/languages/javascript.js"
+      },
+      "./assets/javascript.svg": "./assets/languages/javascript.svg",
+      "./icons/typescript": {
+        "types": "./dist/brand/languages/typescript.d.ts",
+        "import": "./dist/brand/languages/typescript.js",
+        "default": "./dist/brand/languages/typescript.js"
+      },
+      "./assets/typescript.svg": "./assets/languages/typescript.svg",
+      "./icons/go": {
+        "types": "./dist/brand/languages/go.d.ts",
+        "import": "./dist/brand/languages/go.js",
+        "default": "./dist/brand/languages/go.js"
+      },
+      "./assets/go.svg": "./assets/languages/go.svg",
+      "./icons/rust": {
+        "types": "./dist/brand/languages/rust.d.ts",
+        "import": "./dist/brand/languages/rust.js",
+        "default": "./dist/brand/languages/rust.js"
+      },
+      "./assets/rust.svg": "./assets/languages/rust.svg",
+      "./icons/zig": {
+        "types": "./dist/brand/languages/zig.d.ts",
+        "import": "./dist/brand/languages/zig.js",
+        "default": "./dist/brand/languages/zig.js"
+      },
+      "./assets/zig.svg": "./assets/languages/zig.svg",
+      "./icons/cangjie": {
+        "types": "./dist/brand/languages/cangjie.d.ts",
+        "import": "./dist/brand/languages/cangjie.js",
+        "default": "./dist/brand/languages/cangjie.js"
+      },
+      "./assets/cangjie.png": "./assets/languages/cangjie.png",
+      "./icons/csharp": {
+        "types": "./dist/brand/languages/csharp.d.ts",
+        "import": "./dist/brand/languages/csharp.js",
+        "default": "./dist/brand/languages/csharp.js"
+      },
+      "./assets/csharp.svg": "./assets/languages/csharp.svg",
+      "./icons/kotlin": {
+        "types": "./dist/brand/languages/kotlin.d.ts",
+        "import": "./dist/brand/languages/kotlin.js",
+        "default": "./dist/brand/languages/kotlin.js"
+      },
+      "./assets/kotlin.svg": "./assets/languages/kotlin.svg",
+      "./icons/swift": {
+        "types": "./dist/brand/languages/swift.d.ts",
+        "import": "./dist/brand/languages/swift.js",
+        "default": "./dist/brand/languages/swift.js"
+      },
+      "./assets/swift.svg": "./assets/languages/swift.svg",
+      "./icons/ruby": {
+        "types": "./dist/brand/languages/ruby.d.ts",
+        "import": "./dist/brand/languages/ruby.js",
+        "default": "./dist/brand/languages/ruby.js"
+      },
+      "./assets/ruby.svg": "./assets/languages/ruby.svg",
+      "./icons/php": {
+        "types": "./dist/brand/languages/php.d.ts",
+        "import": "./dist/brand/languages/php.js",
+        "default": "./dist/brand/languages/php.js"
+      },
+      "./assets/php.svg": "./assets/languages/php.svg",
+      "./icons/dart": {
+        "types": "./dist/brand/languages/dart.d.ts",
+        "import": "./dist/brand/languages/dart.js",
+        "default": "./dist/brand/languages/dart.js"
+      },
+      "./assets/dart.svg": "./assets/languages/dart.svg",
+      "./icons/scala": {
+        "types": "./dist/brand/languages/scala.d.ts",
+        "import": "./dist/brand/languages/scala.js",
+        "default": "./dist/brand/languages/scala.js"
+      },
+      "./assets/scala.svg": "./assets/languages/scala.svg",
+      "./icons/elixir": {
+        "types": "./dist/brand/languages/elixir.d.ts",
+        "import": "./dist/brand/languages/elixir.js",
+        "default": "./dist/brand/languages/elixir.js"
+      },
+      "./assets/elixir.svg": "./assets/languages/elixir.svg",
+      "./icons/erlang": {
+        "types": "./dist/brand/languages/erlang.d.ts",
+        "import": "./dist/brand/languages/erlang.js",
+        "default": "./dist/brand/languages/erlang.js"
+      },
+      "./assets/erlang.svg": "./assets/languages/erlang.svg",
+      "./icons/racket": {
+        "types": "./dist/brand/languages/racket.d.ts",
+        "import": "./dist/brand/languages/racket.js",
+        "default": "./dist/brand/languages/racket.js"
+      },
+      "./assets/racket.svg": "./assets/languages/racket.svg",
+      "./icons/lua": {
+        "types": "./dist/brand/languages/lua.d.ts",
+        "import": "./dist/brand/languages/lua.js",
+        "default": "./dist/brand/languages/lua.js"
+      },
+      "./assets/lua.svg": "./assets/languages/lua.svg",
+      "./icons/bash": {
+        "types": "./dist/brand/languages/bash.d.ts",
+        "import": "./dist/brand/languages/bash.js",
+        "default": "./dist/brand/languages/bash.js"
+      },
+      "./assets/bash.svg": "./assets/languages/bash.svg",
+      "./icons/html5": {
+        "types": "./dist/brand/languages/html5.d.ts",
+        "import": "./dist/brand/languages/html5.js",
+        "default": "./dist/brand/languages/html5.js"
+      },
+      "./assets/html5.svg": "./assets/languages/html5.svg",
+      "./icons/css3": {
+        "types": "./dist/brand/languages/css3.d.ts",
+        "import": "./dist/brand/languages/css3.js",
+        "default": "./dist/brand/languages/css3.js"
+      },
+      "./assets/css3.svg": "./assets/languages/css3.svg",
+      "./icons/react": {
+        "types": "./dist/brand/frameworks/react.d.ts",
+        "import": "./dist/brand/frameworks/react.js",
+        "default": "./dist/brand/frameworks/react.js"
+      },
+      "./assets/react.svg": "./assets/frameworks/react.svg",
+      "./icons/vuejs": {
+        "types": "./dist/brand/frameworks/vuejs.d.ts",
+        "import": "./dist/brand/frameworks/vuejs.js",
+        "default": "./dist/brand/frameworks/vuejs.js"
+      },
+      "./assets/vuejs.svg": "./assets/frameworks/vuejs.svg",
+      "./icons/angular": {
+        "types": "./dist/brand/frameworks/angular.d.ts",
+        "import": "./dist/brand/frameworks/angular.js",
+        "default": "./dist/brand/frameworks/angular.js"
+      },
+      "./assets/angular.svg": "./assets/frameworks/angular.svg",
+      "./icons/svelte": {
+        "types": "./dist/brand/frameworks/svelte.d.ts",
+        "import": "./dist/brand/frameworks/svelte.js",
+        "default": "./dist/brand/frameworks/svelte.js"
+      },
+      "./assets/svelte.svg": "./assets/frameworks/svelte.svg",
+      "./icons/nextjs": {
+        "types": "./dist/brand/frameworks/nextjs.d.ts",
+        "import": "./dist/brand/frameworks/nextjs.js",
+        "default": "./dist/brand/frameworks/nextjs.js"
+      },
+      "./assets/nextjs.svg": "./assets/frameworks/nextjs.svg",
+      "./icons/nestjs": {
+        "types": "./dist/brand/frameworks/nestjs.d.ts",
+        "import": "./dist/brand/frameworks/nestjs.js",
+        "default": "./dist/brand/frameworks/nestjs.js"
+      },
+      "./assets/nestjs.svg": "./assets/frameworks/nestjs.svg",
+      "./icons/nodejs": {
+        "types": "./dist/brand/frameworks/nodejs.d.ts",
+        "import": "./dist/brand/frameworks/nodejs.js",
+        "default": "./dist/brand/frameworks/nodejs.js"
+      },
+      "./assets/nodejs.svg": "./assets/frameworks/nodejs.svg",
+      "./icons/bun": {
+        "types": "./dist/brand/frameworks/bun.d.ts",
+        "import": "./dist/brand/frameworks/bun.js",
+        "default": "./dist/brand/frameworks/bun.js"
+      },
+      "./assets/bun.svg": "./assets/frameworks/bun.svg",
+      "./icons/vitejs": {
+        "types": "./dist/brand/frameworks/vitejs.d.ts",
+        "import": "./dist/brand/frameworks/vitejs.js",
+        "default": "./dist/brand/frameworks/vitejs.js"
+      },
+      "./assets/vitejs.svg": "./assets/frameworks/vitejs.svg",
+      "./icons/tailwindcss": {
+        "types": "./dist/brand/frameworks/tailwindcss.d.ts",
+        "import": "./dist/brand/frameworks/tailwindcss.js",
+        "default": "./dist/brand/frameworks/tailwindcss.js"
+      },
+      "./assets/tailwindcss.svg": "./assets/frameworks/tailwindcss.svg",
+      "./icons/graphql": {
+        "types": "./dist/brand/frameworks/graphql.d.ts",
+        "import": "./dist/brand/frameworks/graphql.js",
+        "default": "./dist/brand/frameworks/graphql.js"
+      },
+      "./assets/graphql.svg": "./assets/frameworks/graphql.svg",
+      "./icons/postgresql": {
+        "types": "./dist/brand/databases/postgresql.d.ts",
+        "import": "./dist/brand/databases/postgresql.js",
+        "default": "./dist/brand/databases/postgresql.js"
+      },
+      "./assets/postgresql.svg": "./assets/databases/postgresql.svg",
+      "./icons/mysql": {
+        "types": "./dist/brand/databases/mysql.d.ts",
+        "import": "./dist/brand/databases/mysql.js",
+        "default": "./dist/brand/databases/mysql.js"
+      },
+      "./assets/mysql.svg": "./assets/databases/mysql.svg",
+      "./icons/mongodb": {
+        "types": "./dist/brand/databases/mongodb.d.ts",
+        "import": "./dist/brand/databases/mongodb.js",
+        "default": "./dist/brand/databases/mongodb.js"
+      },
+      "./assets/mongodb.svg": "./assets/databases/mongodb.svg",
+      "./icons/redis": {
+        "types": "./dist/brand/databases/redis.d.ts",
+        "import": "./dist/brand/databases/redis.js",
+        "default": "./dist/brand/databases/redis.js"
+      },
+      "./assets/redis.svg": "./assets/databases/redis.svg",
+      "./icons/sqlite": {
+        "types": "./dist/brand/databases/sqlite.d.ts",
+        "import": "./dist/brand/databases/sqlite.js",
+        "default": "./dist/brand/databases/sqlite.js"
+      },
+      "./assets/sqlite.svg": "./assets/databases/sqlite.svg",
+      "./icons/docker": {
+        "types": "./dist/brand/tools/docker.d.ts",
+        "import": "./dist/brand/tools/docker.js",
+        "default": "./dist/brand/tools/docker.js"
+      },
+      "./assets/docker.svg": "./assets/tools/docker.svg",
+      "./icons/kubernetes": {
+        "types": "./dist/brand/tools/kubernetes.d.ts",
+        "import": "./dist/brand/tools/kubernetes.js",
+        "default": "./dist/brand/tools/kubernetes.js"
+      },
+      "./assets/kubernetes.svg": "./assets/tools/kubernetes.svg",
+      "./icons/git": {
+        "types": "./dist/brand/tools/git.d.ts",
+        "import": "./dist/brand/tools/git.js",
+        "default": "./dist/brand/tools/git.js"
+      },
+      "./assets/git.svg": "./assets/tools/git.svg",
+      "./icons/github": {
+        "types": "./dist/brand/tools/github.d.ts",
+        "import": "./dist/brand/tools/github.js",
+        "default": "./dist/brand/tools/github.js"
+      },
+      "./assets/github.svg": "./assets/tools/github.svg",
+      "./icons/gitlab": {
+        "types": "./dist/brand/tools/gitlab.d.ts",
+        "import": "./dist/brand/tools/gitlab.js",
+        "default": "./dist/brand/tools/gitlab.js"
+      },
+      "./assets/gitlab.svg": "./assets/tools/gitlab.svg",
+      "./icons/linux": {
+        "types": "./dist/brand/tools/linux.d.ts",
+        "import": "./dist/brand/tools/linux.js",
+        "default": "./dist/brand/tools/linux.js"
+      },
+      "./assets/linux.svg": "./assets/tools/linux.svg",
+      "./icons/ubuntu": {
+        "types": "./dist/brand/tools/ubuntu.d.ts",
+        "import": "./dist/brand/tools/ubuntu.js",
+        "default": "./dist/brand/tools/ubuntu.js"
+      },
+      "./assets/ubuntu.svg": "./assets/tools/ubuntu.svg",
+      "./icons/nginx": {
+        "types": "./dist/brand/tools/nginx.d.ts",
+        "import": "./dist/brand/tools/nginx.js",
+        "default": "./dist/brand/tools/nginx.js"
+      },
+      "./assets/nginx.svg": "./assets/tools/nginx.svg",
+      "./icons/jenkins": {
+        "types": "./dist/brand/tools/jenkins.d.ts",
+        "import": "./dist/brand/tools/jenkins.js",
+        "default": "./dist/brand/tools/jenkins.js"
+      },
+      "./assets/jenkins.svg": "./assets/tools/jenkins.svg",
+      "./icons/pnpm": {
+        "types": "./dist/brand/tools/pnpm.d.ts",
+        "import": "./dist/brand/tools/pnpm.js",
+        "default": "./dist/brand/tools/pnpm.js"
+      },
+      "./assets/pnpm.svg": "./assets/tools/pnpm.svg",
+      "./icons/npm": {
+        "types": "./dist/brand/tools/npm.d.ts",
+        "import": "./dist/brand/tools/npm.js",
+        "default": "./dist/brand/tools/npm.js"
+      },
+      "./assets/npm.svg": "./assets/tools/npm.svg",
+      "./icons/vscode": {
+        "types": "./dist/brand/tools/vscode.d.ts",
+        "import": "./dist/brand/tools/vscode.js",
+        "default": "./dist/brand/tools/vscode.js"
+      },
+      "./assets/vscode.svg": "./assets/tools/vscode.svg",
+      "./icons/figma": {
+        "types": "./dist/brand/tools/figma.d.ts",
+        "import": "./dist/brand/tools/figma.js",
+        "default": "./dist/brand/tools/figma.js"
+      },
+      "./assets/figma.svg": "./assets/tools/figma.svg",
+      "./icons/markdown": {
+        "types": "./dist/brand/tools/markdown.d.ts",
+        "import": "./dist/brand/tools/markdown.js",
+        "default": "./dist/brand/tools/markdown.js"
+      },
+      "./assets/markdown.svg": "./assets/tools/markdown.svg"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts"
 }

@@ -191,5 +191,13 @@ for (const source of sources) {
   manifest.exports['./icons/' + source.name] = './src/brand/' + folder + '/' + source.name + '.tsx';
   manifest.exports['./assets/' + source.file.split('/').at(-1)] = './assets/' + source.file;
 }
+// workspace 使用源码；发布包只导出已编译的 JavaScript、类型声明与原始素材。
+manifest.publishConfig.exports = Object.fromEntries(
+  Object.entries(manifest.exports as Record<string, string>).map(([path, source]) => {
+    if (source.startsWith('./assets/')) return [path, source];
+    const target = source.replace('./src/', './dist/').replace(/\.tsx?$/, '.js');
+    return [path, { types: target.replace(/\.js$/, '.d.ts'), import: target, default: target }];
+  }),
+);
 await writeFile(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
 console.log('已生成 ' + sources.length + ' 个图标，目录 ' + fileURLToPath(new URL('src/brand/', root)));

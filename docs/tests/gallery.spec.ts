@@ -23,9 +23,9 @@ test('分类数量、图片加载、搜索与代码引入示例', async ({ page,
   await page.getByRole('button', { name: '查看 Python 图标' }).click();
   const details = page.getByRole('dialog');
   await expect(details).toBeVisible();
-  await expect(details.locator('pre')).toContainText("from '@lec-org/icons'");
+  await expect(details.locator('pre')).toContainText("from '@lec-space/icons'");
   await details.getByRole('combobox').selectOption('category');
-  await expect(details.locator('pre')).toContainText("from '@lec-org/icons/languages'");
+  await expect(details.locator('pre')).toContainText("from '@lec-space/icons/languages'");
   await details.getByRole('combobox').selectOption('asset');
   await expect(details.locator('pre')).toContainText('assets/languages/python.svg');
   await details.getByRole('button', { name: '复制代码' }).click();
@@ -51,7 +51,7 @@ test('手机与暗色布局、界面图标分类导入、指南链接', async ({
   await page.getByRole('button', { name: '查看 搜索 图标' }).click();
   const details = page.getByRole('dialog');
   await details.getByRole('combobox').selectOption('category');
-  await expect(details.locator('pre')).toContainText('@lec-org/icons/ui/actions');
+  await expect(details.locator('pre')).toContainText('@lec-space/icons/ui/actions');
   const bounds = await details.boundingBox();
   expect(bounds!.x).toBeGreaterThanOrEqual(0);
   expect(bounds!.x + bounds!.width).toBeLessThanOrEqual(390);

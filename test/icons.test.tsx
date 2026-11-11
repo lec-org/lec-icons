@@ -42,13 +42,13 @@ test('通用界面图标沿用 currentColor，仓颉保留原始 PNG', () => {
 });
 
 test('分类、单图标和旧入口导出同一组件，旧素材别名仍可解析', async () => {
-  const language = await import('@lec-org/icons/languages');
-  const single = await import('@lec-org/icons/icons/python');
-  const actions = await import('@lec-org/icons/ui/actions');
+  const language = await import('@lec-space/icons/languages');
+  const single = await import('@lec-space/icons/icons/python');
+  const actions = await import('@lec-space/icons/ui/actions');
   expect(language.PythonIcon).toBe(PythonIcon);
   expect(single.PythonIcon).toBe(PythonIcon);
   expect(actions.Search).toBe(Search);
-  const asset = import.meta.resolve('@lec-org/icons/assets/python.svg');
+  const asset = import.meta.resolve('@lec-space/icons/assets/python.svg');
   expect(asset).toEndWith('/assets/languages/python.svg');
   expect(await Bun.file(new URL(asset)).exists()).toBe(true);
 });

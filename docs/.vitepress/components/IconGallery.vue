@@ -46,7 +46,7 @@ function reset() {
   <main class="gallery">
     <header class="gallery__hero">
       <div class="gallery__intro">
-        <p class="gallery__package">@lec-org/icons</p>
+        <p class="gallery__package">@lec-space/icons</p>
         <h1>为项目选一枚图标。</h1>
         <p class="gallery__description">按语言、框架和使用场景查找，点击图标即可复制引入代码。</p>
         <a :href="withBase('/guide')">查看使用指南 <span aria-hidden="true">↗</span></a>
