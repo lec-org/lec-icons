@@ -28,6 +28,6 @@ export default defineConfig({
     darkModeSwitchLabel: '外观',
     sidebarMenuLabel: '目录',
     returnToTopLabel: '返回顶部',
-    socialLinks: [{ icon: 'github', link: 'https://github.com/lec-org/lec-oj' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/lec-org/lec-icons' }],
   },
 });

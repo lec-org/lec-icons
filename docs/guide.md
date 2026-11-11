@@ -4,7 +4,7 @@
 
 ## 在 workspace 中接入
 
-在应用的 `package.json` 中添加依赖，然后在仓库根目录运行 `pnpm install`。
+在应用的 `package.json` 中添加依赖，然后在 Lec Platform 根目录运行 `pnpm install`。
 
 ```json
 {

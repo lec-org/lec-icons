@@ -73,6 +73,8 @@ pnpm icons:build
 
 ## 文档站
 
+以下命令在 Lec Platform 根目录执行。
+
 ```sh
 pnpm icons:dev       # http://127.0.0.1:5175
 pnpm icons:build     # 生成静态站点

@@ -1,5 +1,7 @@
 # @lec-org/icons
 
+本仓库作为 `lec-platform/packages/icons` 子模块维护。开发时从 [Lec Platform](https://github.com/lec-org/lec-platform) 递归检出源码，并在平台根目录执行 `pnpm install --frozen-lockfile`。下文的 workspace 命令均从平台根目录运行。
+
 LEC 项目共用的 workspace 图标包，提供带原始配色的品牌图标、Lucide 界面图标和原始素材。
 
 当前包含 54 个品牌图标（53 个 SVG、仓颉原始 PNG）与 57 个界面图标。完整清单、来源及许可证记录在 [icons.json](icons.json) 和 [ui-icons.json](ui-icons.json)。
