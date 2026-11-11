@@ -1,0 +1,72 @@
+[
+  {
+    "id": "language",
+    "label": "语言与基础",
+    "folder": "languages",
+    "kind": "brand",
+    "description": "编程语言与 HTML、CSS"
+  },
+  {
+    "id": "framework",
+    "label": "框架与运行时",
+    "folder": "frameworks",
+    "kind": "brand",
+    "description": "框架、运行时与构建工具"
+  },
+  {
+    "id": "database",
+    "label": "数据库",
+    "folder": "databases",
+    "kind": "brand",
+    "description": "关系型数据库、文档库与缓存"
+  },
+  {
+    "id": "tool",
+    "label": "开发与部署",
+    "folder": "tools",
+    "kind": "brand",
+    "description": "版本管理、容器与开发工具"
+  },
+  {
+    "id": "navigation",
+    "label": "导航",
+    "folder": "navigation",
+    "kind": "ui",
+    "description": "方向、菜单与页面跳转"
+  },
+  {
+    "id": "actions",
+    "label": "操作",
+    "folder": "actions",
+    "kind": "ui",
+    "description": "编辑、上传、搜索与执行"
+  },
+  {
+    "id": "status",
+    "label": "状态",
+    "folder": "status",
+    "kind": "ui",
+    "description": "结果、提示与反馈"
+  },
+  {
+    "id": "files",
+    "label": "文件与列表",
+    "folder": "files",
+    "kind": "ui",
+    "description": "文件、代码与列表"
+  },
+  {
+    "id": "communication",
+    "label": "成员与消息",
+    "folder": "communication",
+    "kind": "ui",
+    "description": "通知、邮件与成员"
+  },
+  {
+    "id": "system",
+    "label": "系统与外观",
+    "folder": "system",
+    "kind": "ui",
+    "description": "时间、设置、配色与终端"
+  }
+]

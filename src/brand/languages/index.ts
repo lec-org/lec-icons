@@ -1,0 +1,25 @@
+/** 语言与基础图标分类入口。 */
+export { CppIcon } from "./cpp.js";
+export { PythonIcon } from "./python.js";
+export { CIcon } from "./c.js";
+export { JavaIcon } from "./java.js";
+export { JavaScriptIcon } from "./javascript.js";
+export { TypeScriptIcon } from "./typescript.js";
+export { GoIcon } from "./go.js";
+export { RustIcon } from "./rust.js";
+export { ZigIcon } from "./zig.js";
+export { CangjieIcon } from "./cangjie.js";
+export { CSharpIcon } from "./csharp.js";
+export { KotlinIcon } from "./kotlin.js";
+export { SwiftIcon } from "./swift.js";
+export { RubyIcon } from "./ruby.js";
+export { PhpIcon } from "./php.js";
+export { DartIcon } from "./dart.js";
+export { ScalaIcon } from "./scala.js";
+export { ElixirIcon } from "./elixir.js";
+export { ErlangIcon } from "./erlang.js";
+export { RacketIcon } from "./racket.js";
+export { LuaIcon } from "./lua.js";
+export { BashIcon } from "./bash.js";
+export { HtmlIcon } from "./html5.js";
+export { CssIcon } from "./css3.js";

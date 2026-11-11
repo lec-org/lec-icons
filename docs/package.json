@@ -1,0 +1,28 @@
+{
+  "name": "@lec-org/icons-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev . --host 127.0.0.1 --port 5175 --strictPort",
+    "build": "vitepress build .",
+    "preview": "vitepress preview . --host 127.0.0.1 --port 5175",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@lec-org/icons": "workspace:*",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "vue": "3.5.45",
+    "lucide-react": "1.71.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.9.3",
+    "vitepress": "1.6.4",
+    "vue-tsc": "3.3.1",
+    "@playwright/test": "1.65.0"
+  }
+}

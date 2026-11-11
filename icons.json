@@ -1,0 +1,488 @@
+[
+  {
+    "name": "cpp",
+    "label": "C++",
+    "component": "CppIcon",
+    "category": "language",
+    "file": "languages/cpp.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/cplusplus/cplusplus-original.svg"
+  },
+  {
+    "name": "python",
+    "label": "Python",
+    "component": "PythonIcon",
+    "category": "language",
+    "file": "languages/python.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/python/python-original.svg"
+  },
+  {
+    "name": "c",
+    "label": "C",
+    "component": "CIcon",
+    "category": "language",
+    "file": "languages/c.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/c/c-original.svg"
+  },
+  {
+    "name": "java",
+    "label": "Java",
+    "component": "JavaIcon",
+    "category": "language",
+    "file": "languages/java.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/java/java-original.svg"
+  },
+  {
+    "name": "javascript",
+    "label": "JavaScript",
+    "component": "JavaScriptIcon",
+    "category": "language",
+    "file": "languages/javascript.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/javascript/javascript-original.svg"
+  },
+  {
+    "name": "typescript",
+    "label": "TypeScript",
+    "component": "TypeScriptIcon",
+    "category": "language",
+    "file": "languages/typescript.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/typescript/typescript-original.svg"
+  },
+  {
+    "name": "go",
+    "label": "Go",
+    "component": "GoIcon",
+    "category": "language",
+    "file": "languages/go.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/go/go-original.svg"
+  },
+  {
+    "name": "rust",
+    "label": "Rust",
+    "component": "RustIcon",
+    "category": "language",
+    "file": "languages/rust.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/rust/rust-original.svg"
+  },
+  {
+    "name": "zig",
+    "label": "Zig",
+    "component": "ZigIcon",
+    "category": "language",
+    "file": "languages/zig.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/zig/zig-original.svg"
+  },
+  {
+    "name": "cangjie",
+    "label": "仓颉",
+    "component": "CangjieIcon",
+    "category": "language",
+    "file": "languages/cangjie.png",
+    "license": "Apache-2.0 with Runtime Library Exception",
+    "source": "https://github.com/cangjielanguage/vscode_cangjie/blob/e2919e7a9e1f8fbe4ac3ff08922db30eb248f925/images/cangjie_icon.png"
+  },
+  {
+    "name": "csharp",
+    "label": "C#",
+    "component": "CSharpIcon",
+    "category": "language",
+    "file": "languages/csharp.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/csharp/csharp-original.svg"
+  },
+  {
+    "name": "kotlin",
+    "label": "Kotlin",
+    "component": "KotlinIcon",
+    "category": "language",
+    "file": "languages/kotlin.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/kotlin/kotlin-original.svg"
+  },
+  {
+    "name": "swift",
+    "label": "Swift",
+    "component": "SwiftIcon",
+    "category": "language",
+    "file": "languages/swift.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/swift/swift-original.svg"
+  },
+  {
+    "name": "ruby",
+    "label": "Ruby",
+    "component": "RubyIcon",
+    "category": "language",
+    "file": "languages/ruby.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/ruby/ruby-original.svg"
+  },
+  {
+    "name": "php",
+    "label": "PHP",
+    "component": "PhpIcon",
+    "category": "language",
+    "file": "languages/php.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/php/php-original.svg"
+  },
+  {
+    "name": "dart",
+    "label": "Dart",
+    "component": "DartIcon",
+    "category": "language",
+    "file": "languages/dart.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/dart/dart-original.svg"
+  },
+  {
+    "name": "scala",
+    "label": "Scala",
+    "component": "ScalaIcon",
+    "category": "language",
+    "file": "languages/scala.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/scala/scala-original.svg"
+  },
+  {
+    "name": "elixir",
+    "label": "Elixir",
+    "component": "ElixirIcon",
+    "category": "language",
+    "file": "languages/elixir.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/elixir/elixir-original.svg"
+  },
+  {
+    "name": "erlang",
+    "label": "Erlang",
+    "component": "ErlangIcon",
+    "category": "language",
+    "file": "languages/erlang.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/erlang/erlang-original.svg"
+  },
+  {
+    "name": "racket",
+    "label": "Racket",
+    "component": "RacketIcon",
+    "category": "language",
+    "file": "languages/racket.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/racket/racket-original.svg"
+  },
+  {
+    "name": "lua",
+    "label": "Lua",
+    "component": "LuaIcon",
+    "category": "language",
+    "file": "languages/lua.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/lua/lua-original.svg"
+  },
+  {
+    "name": "bash",
+    "label": "Bash",
+    "component": "BashIcon",
+    "category": "language",
+    "file": "languages/bash.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/bash/bash-original.svg"
+  },
+  {
+    "name": "html5",
+    "label": "HTML5",
+    "component": "HtmlIcon",
+    "category": "language",
+    "file": "languages/html5.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/html5/html5-original.svg"
+  },
+  {
+    "name": "css3",
+    "label": "CSS3",
+    "component": "CssIcon",
+    "category": "language",
+    "file": "languages/css3.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/css3/css3-original.svg"
+  },
+  {
+    "name": "react",
+    "label": "React",
+    "component": "ReactIcon",
+    "category": "framework",
+    "file": "frameworks/react.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/react/react-original.svg"
+  },
+  {
+    "name": "vuejs",
+    "label": "Vue",
+    "component": "VueIcon",
+    "category": "framework",
+    "file": "frameworks/vuejs.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/vuejs/vuejs-original.svg"
+  },
+  {
+    "name": "angular",
+    "label": "Angular",
+    "component": "AngularIcon",
+    "category": "framework",
+    "file": "frameworks/angular.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/angular/angular-original.svg"
+  },
+  {
+    "name": "svelte",
+    "label": "Svelte",
+    "component": "SvelteIcon",
+    "category": "framework",
+    "file": "frameworks/svelte.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/svelte/svelte-original.svg"
+  },
+  {
+    "name": "nextjs",
+    "label": "Next.js",
+    "component": "NextJsIcon",
+    "category": "framework",
+    "file": "frameworks/nextjs.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/nextjs/nextjs-original.svg"
+  },
+  {
+    "name": "nestjs",
+    "label": "NestJS",
+    "component": "NestJsIcon",
+    "category": "framework",
+    "file": "frameworks/nestjs.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/nestjs/nestjs-original.svg"
+  },
+  {
+    "name": "nodejs",
+    "label": "Node.js",
+    "component": "NodeJsIcon",
+    "category": "framework",
+    "file": "frameworks/nodejs.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/nodejs/nodejs-original.svg"
+  },
+  {
+    "name": "bun",
+    "label": "Bun",
+    "component": "BunIcon",
+    "category": "framework",
+    "file": "frameworks/bun.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/bun/bun-original.svg"
+  },
+  {
+    "name": "vitejs",
+    "label": "Vite",
+    "component": "ViteIcon",
+    "category": "framework",
+    "file": "frameworks/vitejs.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/vitejs/vitejs-original.svg"
+  },
+  {
+    "name": "tailwindcss",
+    "label": "Tailwind CSS",
+    "component": "TailwindCssIcon",
+    "category": "framework",
+    "file": "frameworks/tailwindcss.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/tailwindcss/tailwindcss-original.svg"
+  },
+  {
+    "name": "graphql",
+    "label": "GraphQL",
+    "component": "GraphQlIcon",
+    "category": "framework",
+    "file": "frameworks/graphql.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/graphql/graphql-plain.svg"
+  },
+  {
+    "name": "postgresql",
+    "label": "PostgreSQL",
+    "component": "PostgreSqlIcon",
+    "category": "database",
+    "file": "databases/postgresql.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/postgresql/postgresql-original.svg"
+  },
+  {
+    "name": "mysql",
+    "label": "MySQL",
+    "component": "MySqlIcon",
+    "category": "database",
+    "file": "databases/mysql.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/mysql/mysql-original.svg"
+  },
+  {
+    "name": "mongodb",
+    "label": "MongoDB",
+    "component": "MongoDbIcon",
+    "category": "database",
+    "file": "databases/mongodb.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/mongodb/mongodb-original.svg"
+  },
+  {
+    "name": "redis",
+    "label": "Redis",
+    "component": "RedisIcon",
+    "category": "database",
+    "file": "databases/redis.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/redis/redis-original.svg"
+  },
+  {
+    "name": "sqlite",
+    "label": "SQLite",
+    "component": "SqliteIcon",
+    "category": "database",
+    "file": "databases/sqlite.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/sqlite/sqlite-original.svg"
+  },
+  {
+    "name": "docker",
+    "label": "Docker",
+    "component": "DockerIcon",
+    "category": "tool",
+    "file": "tools/docker.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/docker/docker-original.svg"
+  },
+  {
+    "name": "kubernetes",
+    "label": "Kubernetes",
+    "component": "KubernetesIcon",
+    "category": "tool",
+    "file": "tools/kubernetes.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/kubernetes/kubernetes-original.svg"
+  },
+  {
+    "name": "git",
+    "label": "Git",
+    "component": "GitIcon",
+    "category": "tool",
+    "file": "tools/git.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/git/git-original.svg"
+  },
+  {
+    "name": "github",
+    "label": "GitHub",
+    "component": "GitHubIcon",
+    "category": "tool",
+    "file": "tools/github.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/github/github-original.svg"
+  },
+  {
+    "name": "gitlab",
+    "label": "GitLab",
+    "component": "GitLabIcon",
+    "category": "tool",
+    "file": "tools/gitlab.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/gitlab/gitlab-original.svg"
+  },
+  {
+    "name": "linux",
+    "label": "Linux",
+    "component": "LinuxIcon",
+    "category": "tool",
+    "file": "tools/linux.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/linux/linux-original.svg"
+  },
+  {
+    "name": "ubuntu",
+    "label": "Ubuntu",
+    "component": "UbuntuIcon",
+    "category": "tool",
+    "file": "tools/ubuntu.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/ubuntu/ubuntu-original.svg"
+  },
+  {
+    "name": "nginx",
+    "label": "Nginx",
+    "component": "NginxIcon",
+    "category": "tool",
+    "file": "tools/nginx.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/nginx/nginx-original.svg"
+  },
+  {
+    "name": "jenkins",
+    "label": "Jenkins",
+    "component": "JenkinsIcon",
+    "category": "tool",
+    "file": "tools/jenkins.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/jenkins/jenkins-original.svg"
+  },
+  {
+    "name": "pnpm",
+    "label": "pnpm",
+    "component": "PnpmIcon",
+    "category": "tool",
+    "file": "tools/pnpm.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/pnpm/pnpm-original.svg"
+  },
+  {
+    "name": "npm",
+    "label": "npm",
+    "component": "NpmIcon",
+    "category": "tool",
+    "file": "tools/npm.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/npm/npm-original.svg"
+  },
+  {
+    "name": "vscode",
+    "label": "VS Code",
+    "component": "VsCodeIcon",
+    "category": "tool",
+    "file": "tools/vscode.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/vscode/vscode-original.svg"
+  },
+  {
+    "name": "figma",
+    "label": "Figma",
+    "component": "FigmaIcon",
+    "category": "tool",
+    "file": "tools/figma.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/figma/figma-original.svg"
+  },
+  {
+    "name": "markdown",
+    "label": "Markdown",
+    "component": "MarkdownIcon",
+    "category": "tool",
+    "file": "tools/markdown.svg",
+    "license": "MIT",
+    "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/markdown/markdown-original.svg"
+  }
+]

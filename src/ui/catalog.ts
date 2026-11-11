@@ -1,0 +1,290 @@
+/** 界面图标的名称与分类清单。 */
+export const uiCatalog = [
+  {
+    "name": "ArrowDown",
+    "label": "向下",
+    "category": "navigation"
+  },
+  {
+    "name": "ArrowLeft",
+    "label": "向左",
+    "category": "navigation"
+  },
+  {
+    "name": "ArrowRight",
+    "label": "向右",
+    "category": "navigation"
+  },
+  {
+    "name": "ArrowUp",
+    "label": "向上",
+    "category": "navigation"
+  },
+  {
+    "name": "ChevronLeft",
+    "label": "上一项",
+    "category": "navigation"
+  },
+  {
+    "name": "ChevronRight",
+    "label": "下一项",
+    "category": "navigation"
+  },
+  {
+    "name": "House",
+    "label": "首页",
+    "category": "navigation"
+  },
+  {
+    "name": "Link",
+    "label": "链接",
+    "category": "navigation"
+  },
+  {
+    "name": "Menu",
+    "label": "菜单",
+    "category": "navigation"
+  },
+  {
+    "name": "ExternalLink",
+    "label": "外部链接",
+    "category": "navigation"
+  },
+  {
+    "name": "Check",
+    "label": "确认",
+    "category": "actions"
+  },
+  {
+    "name": "Copy",
+    "label": "复制",
+    "category": "actions"
+  },
+  {
+    "name": "Download",
+    "label": "下载",
+    "category": "actions"
+  },
+  {
+    "name": "Eye",
+    "label": "显示",
+    "category": "actions"
+  },
+  {
+    "name": "EyeOff",
+    "label": "隐藏",
+    "category": "actions"
+  },
+  {
+    "name": "FileUp",
+    "label": "上传文件",
+    "category": "actions"
+  },
+  {
+    "name": "LogIn",
+    "label": "登录",
+    "category": "actions"
+  },
+  {
+    "name": "LogOut",
+    "label": "退出",
+    "category": "actions"
+  },
+  {
+    "name": "Pencil",
+    "label": "编辑",
+    "category": "actions"
+  },
+  {
+    "name": "Play",
+    "label": "运行",
+    "category": "actions"
+  },
+  {
+    "name": "Plus",
+    "label": "添加",
+    "category": "actions"
+  },
+  {
+    "name": "RefreshCw",
+    "label": "刷新",
+    "category": "actions"
+  },
+  {
+    "name": "RotateCcw",
+    "label": "重置",
+    "category": "actions"
+  },
+  {
+    "name": "Save",
+    "label": "保存",
+    "category": "actions"
+  },
+  {
+    "name": "Search",
+    "label": "搜索",
+    "category": "actions"
+  },
+  {
+    "name": "Trash2",
+    "label": "删除",
+    "category": "actions"
+  },
+  {
+    "name": "Upload",
+    "label": "上传",
+    "category": "actions"
+  },
+  {
+    "name": "X",
+    "label": "关闭",
+    "category": "actions"
+  },
+  {
+    "name": "Circle",
+    "label": "圆形",
+    "category": "status"
+  },
+  {
+    "name": "CircleAlert",
+    "label": "警告",
+    "category": "status"
+  },
+  {
+    "name": "CircleCheck",
+    "label": "成功",
+    "category": "status"
+  },
+  {
+    "name": "CircleDot",
+    "label": "处理中",
+    "category": "status"
+  },
+  {
+    "name": "Flame",
+    "label": "热度",
+    "category": "status"
+  },
+  {
+    "name": "Heart",
+    "label": "喜欢",
+    "category": "status"
+  },
+  {
+    "name": "Info",
+    "label": "信息",
+    "category": "status"
+  },
+  {
+    "name": "LoaderCircle",
+    "label": "加载中",
+    "category": "status"
+  },
+  {
+    "name": "ShieldCheck",
+    "label": "安全",
+    "category": "status"
+  },
+  {
+    "name": "Star",
+    "label": "收藏",
+    "category": "status"
+  },
+  {
+    "name": "Trophy",
+    "label": "奖杯",
+    "category": "status"
+  },
+  {
+    "name": "BookOpen",
+    "label": "题目与文档",
+    "category": "files"
+  },
+  {
+    "name": "CodeXml",
+    "label": "代码",
+    "category": "files"
+  },
+  {
+    "name": "FileCode",
+    "label": "代码文件",
+    "category": "files"
+  },
+  {
+    "name": "Folder",
+    "label": "文件夹",
+    "category": "files"
+  },
+  {
+    "name": "ListFilter",
+    "label": "筛选",
+    "category": "files"
+  },
+  {
+    "name": "ListOrdered",
+    "label": "有序列表",
+    "category": "files"
+  },
+  {
+    "name": "Bell",
+    "label": "通知",
+    "category": "communication"
+  },
+  {
+    "name": "Mail",
+    "label": "邮件",
+    "category": "communication"
+  },
+  {
+    "name": "User",
+    "label": "用户",
+    "category": "communication"
+  },
+  {
+    "name": "Users",
+    "label": "成员",
+    "category": "communication"
+  },
+  {
+    "name": "CalendarDays",
+    "label": "日历",
+    "category": "system"
+  },
+  {
+    "name": "Clock3",
+    "label": "时间",
+    "category": "system"
+  },
+  {
+    "name": "Cpu",
+    "label": "处理器",
+    "category": "system"
+  },
+  {
+    "name": "Moon",
+    "label": "深色模式",
+    "category": "system"
+  },
+  {
+    "name": "Palette",
+    "label": "配色",
+    "category": "system"
+  },
+  {
+    "name": "Settings",
+    "label": "设置",
+    "category": "system"
+  },
+  {
+    "name": "Sun",
+    "label": "浅色模式",
+    "category": "system"
+  },
+  {
+    "name": "Terminal",
+    "label": "终端",
+    "category": "system"
+  }
+] as const;
+export type UiIconName = typeof uiCatalog[number]['name'];
+export const uiIconNames: readonly UiIconName[] = uiCatalog.map((icon) => icon.name);
