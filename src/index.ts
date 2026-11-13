@@ -56,3 +56,4 @@ export { NpmIcon } from "./brand/tools/npm.js";
 export { VsCodeIcon } from "./brand/tools/vscode.js";
 export { FigmaIcon } from "./brand/tools/figma.js";
 export { MarkdownIcon } from "./brand/tools/markdown.js";
+export { LineIcon } from "./brand/tools/line.js";

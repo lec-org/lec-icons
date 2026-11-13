@@ -113,7 +113,7 @@ for (const source of sources) {
     if (!svg) throw new Error('无法读取 SVG：' + source.file);
     ({ useId, jsx } = renderSvg(svg));
   } else {
-    // 仓颉来源只提供 PNG，内嵌原图保留原始素材格式。
+    // 位图素材内嵌原图，以保留配色、透明通道和原始格式。
     const href = 'data:image/png;base64,' + asset.toString('base64');
     jsx = '    <IconBase viewBox="0 0 128 128" {...props}>\n'
       + '      <image href=' + JSON.stringify(href) + ' width="128" height="128" />\n'

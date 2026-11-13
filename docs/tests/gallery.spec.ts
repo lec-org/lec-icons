@@ -5,7 +5,7 @@ test('分类数量、图片加载、搜索与代码引入示例', async ({ page,
   page.on('pageerror', (error) => errors.push(error.message));
   await context.grantPermissions(['clipboard-read', 'clipboard-write']);
   await page.goto('/');
-  await expect(page.locator('.icon-card')).toHaveCount(111);
+  await expect(page.locator('.icon-card')).toHaveCount(112);
   const broken = await page.locator('.icon-card img').evaluateAll(async (images) => {
     await Promise.all(images.map(async (image) => {
       const img = image as HTMLImageElement;
@@ -17,7 +17,7 @@ test('分类数量、图片加载、搜索与代码引入示例', async ({ page,
   expect(broken).toBe(0);
   await page.getByRole('button', { name: '数据库 5', exact: true }).click();
   await expect(page.locator('.icon-card')).toHaveCount(5);
-  await page.getByRole('button', { name: '全部 111', exact: true }).click();
+  await page.getByRole('button', { name: '全部 112', exact: true }).click();
   await page.getByRole('searchbox', { name: '搜索图标' }).fill('PythonIcon');
   await expect(page.locator('.icon-card')).toHaveCount(1);
   await page.getByRole('button', { name: '查看 Python 图标' }).click();
@@ -35,10 +35,17 @@ test('分类数量、图片加载、搜索与代码引入示例', async ({ page,
   await page.keyboard.press('Escape');
   await expect(details).not.toBeVisible();
   await expect(page.getByRole('button', { name: '查看 Python 图标' })).toBeFocused();
+  await page.getByRole('searchbox', { name: '搜索图标' }).fill('LineIcon');
+  await expect(page.locator('.icon-card')).toHaveCount(1);
+  await page.getByRole('button', { name: '查看 line 图标' }).click();
+  await details.getByRole('combobox').selectOption('asset');
+  await expect(details.locator('pre')).toContainText('assets/tools/line.png');
+  await page.screenshot({ path: 'test-results/line-icon.png' });
+  await page.keyboard.press('Escape');
   await page.getByRole('searchbox', { name: '搜索图标' }).fill('没有这个图标');
   await expect(page.getByRole('heading', { name: '没有找到匹配的图标' })).toBeVisible();
   await page.getByRole('button', { name: '清除筛选' }).click();
-  await expect(page.locator('.icon-card')).toHaveCount(111);
+  await expect(page.locator('.icon-card')).toHaveCount(112);
   expect(errors).toEqual([]);
 });
 

@@ -485,6 +485,15 @@ export const iconCatalog = [
     "file": "tools/markdown.svg",
     "license": "MIT",
     "source": "https://github.com/devicons/devicon/blob/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/markdown/markdown-original.svg"
+  },
+  {
+    "name": "line",
+    "label": "line",
+    "component": "LineIcon",
+    "category": "tool",
+    "file": "tools/line.png",
+    "license": "用户提供，未另行声明许可",
+    "source": "https://github.com/lec-org/lec-editor/blob/main/crates/zed/resources/app-icon%402x.png"
   }
 ] as const;
 export const iconCategories = [

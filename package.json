@@ -121,7 +121,9 @@
     "./icons/figma": "./src/brand/tools/figma.tsx",
     "./assets/figma.svg": "./assets/tools/figma.svg",
     "./icons/markdown": "./src/brand/tools/markdown.tsx",
-    "./assets/markdown.svg": "./assets/tools/markdown.svg"
+    "./assets/markdown.svg": "./assets/tools/markdown.svg",
+    "./icons/line": "./src/brand/tools/line.tsx",
+    "./assets/line.png": "./assets/tools/line.png"
   },
   "files": [
     "dist",
@@ -531,7 +533,13 @@
         "import": "./dist/brand/tools/markdown.js",
         "default": "./dist/brand/tools/markdown.js"
       },
-      "./assets/markdown.svg": "./assets/tools/markdown.svg"
+      "./assets/markdown.svg": "./assets/tools/markdown.svg",
+      "./icons/line": {
+        "types": "./dist/brand/tools/line.d.ts",
+        "import": "./dist/brand/tools/line.js",
+        "default": "./dist/brand/tools/line.js"
+      },
+      "./assets/line.png": "./assets/tools/line.png"
     }
   },
   "main": "./dist/index.js",

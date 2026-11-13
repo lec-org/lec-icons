@@ -12,7 +12,7 @@ npm install @lec-space/icons@1.0.0
 
 LEC 项目共用的 workspace 图标包，提供带原始配色的品牌图标、Lucide 界面图标和原始素材。
 
-当前包含 54 个品牌图标（53 个 SVG、仓颉原始 PNG）与 57 个界面图标。完整清单、来源及许可证记录在 [icons.json](icons.json) 和 [ui-icons.json](ui-icons.json)。
+当前包含 55 个品牌图标（53 个 SVG、仓颉与 line 原始 PNG）与 57 个界面图标。完整清单、来源及许可证记录在 [icons.json](icons.json) 和 [ui-icons.json](ui-icons.json)。
 
 ## React 用法
 
@@ -93,6 +93,7 @@ pnpm --filter @lec-space/icons build
 - 包内代码使用 MIT 许可，见 [LICENSE](LICENSE)。
 - 品牌 SVG 来自 Devicon，新增素材固定到清单中记录的上游提交，MIT 许可见 [licenses/devicon-MIT.txt](licenses/devicon-MIT.txt)。
 - 仓颉图标从现有工作台迁入，来源为仓颉官方 VS Code 扩展，保留 PNG 和 [原始许可](licenses/cangjie-Apache-2.0.txt)。
+- line 品牌图标由用户提供，保留原始透明 PNG；来源项目和许可状态见 `icons.json`。
 - 界面图标由依赖的 `lucide-react` 提供，ISC 许可及部分图标的 Feather MIT 许可见 [licenses/lucide-ISC-MIT.txt](licenses/lucide-ISC-MIT.txt)。
 
 第三方标识的使用需遵守其品牌规范。

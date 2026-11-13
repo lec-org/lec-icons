@@ -13,3 +13,4 @@ export { NpmIcon } from "./npm.js";
 export { VsCodeIcon } from "./vscode.js";
 export { FigmaIcon } from "./figma.js";
 export { MarkdownIcon } from "./markdown.js";
+export { LineIcon } from "./line.js";
